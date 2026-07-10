@@ -11,6 +11,6 @@ def run_file(filename):
     try:
         runpy.run_path(str(path), run_name="__main__")
     except Exception as e:
-        print("❌ FastPy Error")
+        print("❌ SerpentiPy Error")
         print(e)
 

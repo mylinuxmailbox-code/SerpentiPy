@@ -6,11 +6,11 @@ from fastpy.cache import compile_file
 from fastpy.runner import run_file
 from fastpy.version import VERSION
 
-print(f"FastPy {VERSION}")
+print(f"SerpentiPy {VERSION}")
 
 if len(sys.argv) != 2:
     print("Usage:")
-    print("    fpy program.fpy")
+    print("    spyp program.spyp")
     sys.exit(1)
 
 filename = sys.argv[1]
