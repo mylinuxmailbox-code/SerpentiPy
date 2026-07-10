@@ -1,0 +1,23 @@
+import sys
+
+from fastpy.cache import compile_file
+from fastpy.runner import run_file
+from fastpy.version import VERSION
+
+
+def main():
+    print(f"SerpentiPy {VERSION}")
+
+    if len(sys.argv) != 2:
+        print("Usage:")
+        print("    spyp program.spyp")
+        sys.exit(1)
+
+    filename = sys.argv[1]
+
+    compile_file(filename)
+    run_file(filename)
+
+
+if __name__ == "__main__":
+    main()

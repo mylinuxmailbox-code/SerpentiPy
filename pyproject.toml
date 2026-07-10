@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "serpentipy"
+version = "1.0.0"
+description = "SerpentiPy: fast .spyp script runner with bytecode caching"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name = "mylinuxmailbox-code" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mylinuxmailbox-code/SerpentiPy"
+
+# Installs a real 'spyp' executable on PATH — no ./ or chmod needed.
+[project.scripts]
+spyp = "fastpy.cli:main"
+
+[tool.setuptools]
+packages = ["fastpy"]
