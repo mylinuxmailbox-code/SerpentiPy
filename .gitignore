@@ -1,0 +1,6 @@
+__pycache__/
+.fastpy_cache/
+*.pyc
+.vscode/
+.idea/
+

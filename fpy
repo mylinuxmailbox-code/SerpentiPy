@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+
+import sys
+
+from fastpy.cache import compile_file
+from fastpy.runner import run_file
+from fastpy.version import VERSION
+
+print(f"FastPy {VERSION}")
+
+if len(sys.argv) != 2:
+    print("Usage:")
+    print("    fpy program.fpy")
+    sys.exit(1)
+
+filename = sys.argv[1]
+
+compile_file(filename)
+
+run_file(filename)
+
