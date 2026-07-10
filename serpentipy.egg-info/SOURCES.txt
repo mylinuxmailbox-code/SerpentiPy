@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+fastpy/__init__.py
+fastpy/cache.py
+fastpy/cli.py
+fastpy/runner.py
+fastpy/version.py
+serpentipy.egg-info/PKG-INFO
+serpentipy.egg-info/SOURCES.txt
+serpentipy.egg-info/dependency_links.txt
+serpentipy.egg-info/entry_points.txt
+serpentipy.egg-info/top_level.txt
