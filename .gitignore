@@ -1,7 +1,6 @@
-
-__pycache__/
+*.egg-info/
 .fastpy_cache/
+dist/
+build/
+__pycache__/
 *.pyc
-.vscode/
-.idea/
-
