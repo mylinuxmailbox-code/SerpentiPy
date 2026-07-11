@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "serpentipy"
-version = "2.0.1"
+version = "2.0.2"
 description = "SerpentiPy: AOT-compiled .spyp runner (Nuitka native backend). Requires gcc or clang."
 readme = "README.md"
 dependencies = ["nuitka>=2.0"]
